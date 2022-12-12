@@ -34,6 +34,8 @@ h2{
     color: white;
     margin: auto;
     text-align: center;
+    font-weight: 400;
+    font-size: 1.25rem;
 }
 
 .banner h1{
@@ -48,6 +50,31 @@ h2{
 
 header p{
     color: white;
+}
+
+.banner .banner-content p{
+    margin-top: 16px;
+}
+
+.banner .banner-content button{
+    background-color: transparent;
+    color: #31A8DD;
+    font-weight: 900;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border-image: linear-gradient(#3BA1CD, #1572B7);
+    border-image-slice: 10;
+    padding: 19px 46px;
+    margin-top: 43px;
+}
+
+#course-content h2{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: 0.19em;
+    margin-bottom: 24px;
 }
 
 .modules-list{
@@ -92,7 +119,18 @@ header p{
     font-size: 2.5rem;
     max-width: 350px;
     text-shadow: 3px 2px #33a8db;
+    margin-bottom: 32px;
     
+}
+
+#professional-challenges h2{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 32px;
+}
+
+#professional-challenges p{
+    line-height: 19px;
 }
 
 footer{
