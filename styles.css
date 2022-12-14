@@ -24,6 +24,7 @@ h2{
     background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url('./assets/images/banner.png');
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: left;
     height: 600px;
     padding-top: 60px;
     border-bottom: 1px solid #33A8DB;
